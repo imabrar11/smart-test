@@ -1,6 +1,8 @@
 body {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-   align-items: center;
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  align-items: center;
   background-color: #a52560;
   color: white;
   display: flex;
@@ -17,9 +19,9 @@ body {
     right: 0;
     bottom: 0;
     background: rgba(0, 0, 0, 0.5);
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
     opacity: 0;
     visibility: hidden;
     z-index: 1;
@@ -49,13 +51,15 @@ h6,
 .h4,
 .h5,
 .h6 {
-  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+    "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 }
 
 a {
-  -webkit-transition: .3s all ease;
-  -o-transition: .3s all ease;
-  transition: .3s all ease;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
   text-decoration: none !important;
 
   &:hover {
@@ -93,7 +97,10 @@ a {
     a {
       text-transform: uppercase;
       color: #000;
-      font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+      font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI",
+        Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
     }
   }
 
@@ -116,10 +123,10 @@ a {
         display: inline-block;
       }
 
-      >li {
+      > li {
         display: inline-block;
 
-        >a {
+        > a {
           margin-left: 15px;
           margin-right: 15px;
           padding: 20px 0px;
@@ -132,7 +139,7 @@ a {
           }
         }
 
-        &.active>a {
+        &.active > a {
           color: #000 !important;
         }
       }
@@ -140,7 +147,7 @@ a {
       .has-children {
         position: relative;
 
-        >a {
+        > a {
           position: relative;
           padding-right: 20px;
 
@@ -153,7 +160,7 @@ a {
             -webkit-transform: translateY(-50%);
             -ms-transform: translateY(-50%);
             transform: translateY(-50%);
-            font-family: 'icomoon';
+            font-family: "icomoon";
           }
         }
 
@@ -208,13 +215,13 @@ a {
             }
           }
 
-          >li {
+          > li {
             list-style: none;
             padding: 0;
             margin: 0;
             min-width: 200px;
 
-            >a {
+            > a {
               padding: 9px 20px;
               display: block;
 
@@ -238,9 +245,9 @@ a {
                 }
               }
 
-              &:hover>a,
-              &:active>a,
-              &:focus>a {
+              &:hover > a,
+              &:active > a,
+              &:focus > a {
                 background: #f8f9fa;
                 color: #ced4da;
               }
@@ -248,9 +255,9 @@ a {
           }
         }
 
-        &:hover>a,
-        &:focus>a,
-        &:active>a {
+        &:hover > a,
+        &:focus > a,
+        &:active > a {
           color: #007bff;
         }
 
@@ -260,9 +267,9 @@ a {
           cursor: pointer;
         }
 
-        &:hover>.dropdown,
-        &:focus>.dropdown,
-        &:active>.dropdown {
+        &:hover > .dropdown,
+        &:focus > .dropdown,
+        &:active > .dropdown {
           -webkit-transition-delay: 0s;
           -o-transition-delay: 0s;
           transition-delay: 0s;
@@ -272,20 +279,6 @@ a {
         }
       }
     }
-  }
-}
-
-@media (max-width: 991.98px) {
-  .site-navbar {
-    padding-top: 3rem;
-    padding-bottom: 3rem;
-  }
-}
-
-@media (max-width: 991.98px) {
-  .site-navbar .site-logo {
-    float: left;
-    position: relative;
   }
 }
 
@@ -302,9 +295,9 @@ a {
   transform: translateX(110%);
   -webkit-box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
   box-shadow: -10px 0 20px -10px rgba(0, 0, 0, 0.1);
-  -webkit-transition: .3s all ease-in-out;
-  -o-transition: .3s all ease-in-out;
-  transition: .3s all ease-in-out;
+  -webkit-transition: 0.3s all ease-in-out;
+  -o-transition: 0.3s all ease-in-out;
+  transition: 0.3s all ease-in-out;
 }
 
 .offcanvas-menu .site-mobile-menu {
@@ -331,9 +324,9 @@ a {
         padding-right: 0px;
         line-height: 1;
         cursor: pointer;
-        -webkit-transition: .3s all ease;
-        -o-transition: .3s all ease;
-        transition: .3s all ease;
+        -webkit-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+        transition: 0.3s all ease;
 
         &:hover {
           color: #ced4da;
@@ -392,7 +385,7 @@ a {
       display: block;
 
       .nav-link.active,
-      &.active>a {
+      &.active > a {
         color: #007bff;
       }
     }
@@ -423,9 +416,9 @@ a {
         -webkit-transform: translate(-50%, -50%) rotate(-180deg);
         -ms-transform: translate(-50%, -50%) rotate(-180deg);
         transform: translate(-50%, -50%) rotate(-180deg);
-        -webkit-transition: .3s all ease;
-        -o-transition: .3s all ease;
-        transition: .3s all ease;
+        -webkit-transition: 0.3s all ease;
+        -o-transition: 0.3s all ease;
+        transition: 0.3s all ease;
       }
 
       &.collapsed:before {
@@ -435,7 +428,7 @@ a {
       }
     }
 
-    >li {
+    > li {
       display: block;
       position: relative;
       float: left;
@@ -452,7 +445,7 @@ a {
           margin: 0;
           list-style: none;
 
-          >li {
+          > li {
             display: block;
 
             > {
@@ -465,10 +458,10 @@ a {
                 padding: 0;
                 margin: 0;
 
-                >li {
+                > li {
                   display: block;
 
-                  >a {
+                  > a {
                     font-size: 16px;
                     padding-left: 60px;
                   }
@@ -486,7 +479,7 @@ a {
       margin-top: 30px;
       padding-bottom: 5em;
 
-      >li {
+      > li {
         width: auto;
 
         &:first-child a {
@@ -505,9 +498,9 @@ a {
   top: 0;
 
   .site-navbar {
-    -webkit-transition: .3s all ease;
-    -o-transition: .3s all ease;
-    transition: .3s all ease;
+    -webkit-transition: 0.3s all ease;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
     background: #fff;
 
     ul li a {
@@ -608,9 +601,291 @@ form {
   }
 }
 
-@media (max-width: 991.98px) {
+.section-amount {
+  background: #ffe699;
+  color: #000;
+  font-family: inherit;
+  margin-top: 2px;
+  padding: 0px 25px;
+  position: relative;
+  height: 65px;
+  .amount-payable {
+    margin: auto;
+    .total-amt{
+      color: #000;
+      font-size: 25px;
+      font-weight: 600;
+      margin-top: 0px;
+      margin-bottom: -1.5rem;
+      span{
+        color: #000;
+        font-size: 25px;
+        margin-left: 15px;
+      }
+    }
+    .saving-amt{
+      color: #385723;
+      font-weight: 700;
+      margin-top: 0px;
+
+      span{
+        color: #385723;
+        font-weight: 700;
+        position: absolute;
+        top: 75%;
+        right: 32px;
+        transform: translateY(-50%);
+      }
+    }
+    button {
+      background-color: #ffffff;
+      border: none;
+      border-radius: 50px;
+      color: black;
+      padding: 15px 35px;
+      text-align: center;
+      text-decoration: none;
+      text-transform: uppercase;
+      display: inline-block;
+      font-size: 16px;
+      font-weight: 600;
+      margin: 4px 2px;
+      cursor: pointer;
+    }
+  }
+
+  .developer {
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+  }
+
+  a {
+    color: #fff;
+    text-decoration: none;
+  }
+}
+
+@font-face {
+  font-family: "GLYPHICONS Halflings";
+  src: url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.eot");
+  src: url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.eot?#iefix") format("embedded-opentype"), url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.woff2") format("woff2"), url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.woff") format("woff"), url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.ttf") format("truetype"), url("//db.onlinewebfonts.com/t/017408da87d74ff3770960264091f3d4.svg#GLYPHICONS Halflings") format("svg");
+}
+
+.glyphicon {
+  position: relative;
+  top: 1px;
+  display: inline-block;
+  font-family: 'Glyphicons Halflings';
+  font-style: normal;
+  font-weight: normal;
+  line-height: 1;
+  -webkit-font-smoothing: antialiased;
+}
+
+// Bootstrap variables
+$brand-success: #5cb85c !default;
+$gray-base: #000 !default;
+$gray-light: lighten($gray-base, 46.7%) !default; // #777
+$text-muted: $gray-light !default;
+$brand-danger: #d9534f !default;
+
+
+.radio-fontawesome .radio,
+.checkbox-fontawesome .checkbox,
+.radio-glyphicon .radio,
+.checkbox-glyphicon .checkbox {
+  label {
+    position: relative;
+    padding-left: 1em;
+  }
+
+  input[type=radio],
+  input[type=checkbox] {
+    position: absolute;
+    margin-left: -100em;
+    margin-right: 100em;
+    font-size: 1em;
+  }
+
+  input[type=radio]:before,
+  input[type=checkbox]:before {
+    position: relative;
+    position: absolute;
+    left: 99em;
+  }
+
+  .radio.disabled input[type=radio]:before,
+  .checkbox.disabled input[type=checkbox]:before {
+    cursor: not-allowed;
+  }
+}
+
+
+/* Colors ---------------------- */
+
+.radio.disabled input[type=radio]:before,
+.checkbox.disabled input[type=checkbox]:before {
+  color: $brand-danger;
+}
+
+.radio-success input[type=radio]:checked,
+.checkbox-success input[type=checkbox]:checked {
+  color: $brand-success;
+}
+
+
+
+/* Glyphicon -------------------- */
+
+// For bootstrap 4 only
+// @import "//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css";
+
+
+input[type="checkbox"],
+input[type="radio"] {
+  box-sizing: border-box;
+  padding: 0;
+}
+
+.glyphicon-check:before {
+  content: "\e067";
+}
+
+.glyphicon-unchecked:before {
+  content: "\e157";
+}
+
+.radio-glyphicon,
+.checkbox-glyphicon {
+
+  input[type=radio]:before,
+  input[type=checkbox]:before {
+    font-family: 'Glyphicons Halflings';
+  }
+}
+
+.radio-glyphicon {
+
+  .radio.disabled input[type=radio]:before,
+  input[type=radio]:before {
+    content: "\e088";
+  }
+
+  input[type=radio]:checked:before {
+    content: "\e089";
+  }
+}
+
+.checkbox-glyphicon {
+
+  .checkbox.disabled input[type=checkbox]:before,
+  input[type=checkbox]:before {
+    content: "\e157";
+  }
+
+  input[type=checkbox]:checked:before {
+    content: "\e067";
+  }
+}
+
+
+/* Fontawesome ------------------ */
+
+/*@import "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css";*/
+@import "https://use.fontawesome.com/releases/v5.1.0/css/all.css";
+
+.radio-fontawesome,
+.checkbox-fontawesome {
+
+  input[type=radio]:before,
+  input[type=checkbox]:before {
+    font-family: 'FontAwesome';
+  }
+}
+
+.radio-fontawesome {
+
+  .radio.disabled input[type=radio]:before,
+  input[type=radio]:before {
+    content: "\f10c";
+  }
+
+  input[type=radio]:checked:before {
+    content: "\f111";
+  }
+}
+
+.checkbox-fontawesome {
+
+  .checkbox.disabled input[type=checkbox]:before,
+  input[type=checkbox]:before {
+    content: "\f096";
+  }
+
+  input[type=checkbox]:checked:before {
+    content: "\f046";
+  }
+}
+
+
+/* Bouncy effect ------------------- */
+
+input[type=radio]:checked:before,
+input[type=checkbox]:checked:before {
+  animation: bouncy 0.6s ease;
+}
+
+@keyframes bouncy {
+  from {
+    transform: scale(1, 1);
+  }
+
+  30% {
+    transform: scale(1.25, 0.75);
+  }
+
+  40% {
+    transform: scale(0.75, 1.25);
+  }
+
+  50% {
+    transform: scale(1.15, 0.85);
+  }
+
+  65% {
+    transform: scale(0.95, 1.05);
+  }
+
+  75% {
+    transform: scale(1.05, 0.95);
+  }
+
+  to {
+    transform: scale(1, 1);
+  }
+}
+
+
+/* Demo ----------------------------- */
+
+.radio,
+.checkbox {
+  font-size: 1.7em;
+}
+
+@media (max-width: 992) {
   .sticky-wrapper .shrink {
     padding-top: 30px !important;
     padding-bottom: 30px !important;
+  }
+  .site-navbar {
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+  }
+  .site-navbar .site-logo {
+    float: left;
+    position: relative;
   }
 }

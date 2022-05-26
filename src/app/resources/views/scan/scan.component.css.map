@@ -1,0 +1,9 @@
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "scan.component.scss"
+    ],
+    "names": [],
+    "file": "scan.component.css"
+}

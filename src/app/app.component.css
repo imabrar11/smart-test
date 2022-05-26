@@ -1,0 +1,18 @@
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: linear-gradient(45deg, black, transparent);
+  font-family: Dosis, sans-serif;
+  font-size: 120%;
+}
+/*# sourceMappingURL=app.component.css.map */
